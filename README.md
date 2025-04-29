@@ -1,15 +1,10 @@
 # App de Tarefas com Firebase In-App Messaging
 
-Este é um aplicativo Android desenvolvido em Java que demonstra o uso do Firebase In-App Messaging para engajar o usuário conforme ele conclui tarefas.
+Este é um aplicativo Android desenvolvido em Java que demonstra o uso do Firebase In-App Messaging.
 
 ## Funcionalidades
 
-- Lista de tarefas
-- Marcação de tarefas concluídas
-- Mensagens inteligentes com base no progresso:
-  - 1 tarefa: mensagem padrão
-  - 50% das tarefas: mensagem motivacional
-  - 100% das tarefas: mensagem de conclusão total
+- Mensagem inteligente ao clicar no botão
 
 ## Tecnologias
 
@@ -19,12 +14,13 @@ Este é um aplicativo Android desenvolvido em Java que demonstra o uso do Fireba
 
 ## Telas
 
-![image](https://github.com/user-attachments/assets/18cc0409-9357-428b-ad14-a85842e7623c)
+![primeira-tela](https://github.com/user-attachments/assets/9a89f5de-7784-4209-ab30-e4c15d813a07)
+![segunda-tela](https://github.com/user-attachments/assets/f407bd0d-273e-48c0-a85b-838b62b516a9)
 
 ## Como testar
 
 1. Conecte-se ao Firebase
-2. Crie os eventos `tarefa_concluida`, `tarefas_metade`, `todas_tarefas_concluidas` no Console do Firebase
+2. Crie os eventos no Console do Firebase
 3. Configure campanhas de In-App Messaging associadas a cada evento
 
 ---
